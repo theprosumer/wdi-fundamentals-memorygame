@@ -1,11 +1,11 @@
 console.log("JS file is connected to HTML! Woo!")
 var cardOne = "queen"
-var cardTwo = "king"
+var cardTwo = "queen"
 var cardThree = "king"
-var cardFour = "queen"
+var cardFour = "king"
 
-if (cardTwo===cardFour){
+if (cardOne === cardTwo){
 	alert('You Found A Match!');
-}else {
-	alert('Sorry, Try Again.')
+} else {
+	alert('Sorry, Try Again.');
 }
