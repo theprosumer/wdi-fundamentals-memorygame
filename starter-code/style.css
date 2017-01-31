@@ -15,12 +15,28 @@ from Unit 1 - 5 below  */
 	border-radius: 10px; 
 	float: left;
 	margin: 8%;
+}
+img {
+	height: 200px;
+  width: 150px;
+}
 
 }
-h1 {color: rgb(2, 132, 130);}
+h1 {
+	color: rgb(2, 132, 130);
+	text-align: center
+}
 
+h2 {
+	color: #ffd700;
+	text-align: center
+}
 
-h2 {color: #ffd700;}
+body {
+	text-align: center
+}
+
+}
 
 footer {
 	   text-align: center;
@@ -34,9 +50,6 @@ footer {
 	color: #ff0000;
 }
 
-body {
-	text-align: center;
-}
 
 nav {
 	background-color: #808080;
