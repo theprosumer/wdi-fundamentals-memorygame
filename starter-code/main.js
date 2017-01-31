@@ -1,33 +1,28 @@
 console.log("JS file is connected to HTML! Woo!")
-//setup cards in the game
-var cardOne = "queen"
-var cardTwo = "queen"
-var cardThree = "king"
-var cardFour = "king"
+
+//var cardOne = "queen"
+//var cardTwo = "queen"
+//var cardThree = "king"
+//var cardFour = "king"
 
 /*if (cardOne === cardTwo){
 	alert('You Found A Match!');
 } else {
 	alert('Sorry, Try Again.');
 }*/
-function createCards() {
-//get element id of game-baord and set to var
-var board = document.getElementById('game-board');
+//create a function called create cards and put code underneath
+function createCards() {}
+//get element id of game-board and set to a var
+var gameboard = document.getElementById('game-board');
 
-//set function to create empty board
-function createBoard() {
-//create loop that creates html element for each card
-for (var i = 0; i<cards.length; i++) {
-
-//create the cards 
-//give each elem a div and class of card
-var newCardElement = document.createElement ('div');
-	newCardElement.className = "card";
-
-//append ea card to div with game-baord id
-board.appendChild(newCardElement);
-}
-}
+//create a for loop that creates an html element of ea card 
+//each element should be div and have the class card
+//then append the card to the board
+for (var i=0; i<card.length; i++) {
+	var eachCard =document.createElement('div'); 
+    eachCard.className = 'card';
+    gameboard.appendChild(eachCard);
 }
 
-//execute createcards function
+//execute createCards Function
+createCards('card')
